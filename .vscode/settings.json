@@ -1,0 +1,13 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/c:\\Users\\marip\\Downloads\\Computer_Science_Workshop_2026_Poster_Template__Copy_\\main.aux": true,
+        "**/c:\\Users\\marip\\Downloads\\Computer_Science_Workshop_2026_Poster_Template__Copy_\\main.log": true,
+        "**/c:\\Users\\marip\\Downloads\\Computer_Science_Workshop_2026_Poster_Template__Copy_\\main.gz": true,
+        "**/c:\\Users\\marip\\Downloads\\Computer_Science_Workshop_2026_Poster_Template__Copy_\\main.out": true
+    }
+}

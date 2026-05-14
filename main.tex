@@ -1,0 +1,86 @@
+\documentclass{cswposter}
+\ExecuteBibliographyOptions{maxnames=2, minnames=1, giveninits=true}
+\addbibresource{references.bib}
+
+\begin{document}
+
+\title{ActivePaws: A Wearable-Controlled Exergame Platform for Pediatric Motor Rehabilitation}
+\author{\textbf{Marianna Pizzo}, Fabio Lazzari, Andrea De Filippis, Jacopo Roman\`o, Lorenzo Garavaglia, Simone Pittaccio, \textbf{Manuela Chessa}}
+
+\begin{cswposter}
+
+% --- COLUMN 1 ---
+
+\posterbox[adjusted title = Motivation \& Research Questions]
+{name = motivation, column=1}{
+The \textit{Convention on the Rights of the Child} (UN, 1989) states that \textit{``Every child has a right to play''}. Yet children with upper limb neuromotor disorders often cannot access mainstream games, as conventional controllers exceed their motor abilities \cite{maggiorini2017evolution}. Research exergames address this but tend to be repetitive, poorly engaging, and graphically minimal compared to the games their healthy peers play \cite{biffi2017immersive}.
+
+\textbf{ActivePaws} was designed to address both demands. On one hand, it uses a soft wearable orthosis as a controller~\cite{lazzari2026design} with \textbf{intuitive gestures} and \textbf{configurable alternative mappings} to accommodate different motor profiles. On the other hand, it provides a suite of exergames co-designed with therapists to be visually and sonically engaging, while remaining uncluttered enough to keep the motor task in focus.
+
+\textbf{RQ1.} Is the system usable, acceptable, and engaging for children?\\
+\textbf{RQ2.} Do alternative movement mappings affect game performance?\\
+\textbf{RQ3.} Is there an optimal movement sensitivity threshold that facilitates successful gameplay?
+}
+
+\posterbox[adjusted title = The ActivePaws Exergame Suite]
+{name = suite, column=1, below=motivation}{
+ActivePaws is a wearable-controlled exergame suite for pediatric upper limb rehabilitation. A soft wrist orthosis, Playcuff \cite{lazzari2026design}, connects wirelessly via Bluetooth and serves as the game controller.
+
+\medskip
+The suite comprises three games. Each game offers \textbf{configurable alternative movement mappings} for key in-game actions, independently selectable before each session: one set is slightly more ecologically intuitive, ensuring accessibility across different residual motor abilities. Each game also provides a \textbf{calibration scene} where the therapist sets the sensitivity threshold for specific movements. A \textbf{two-phase tutorial}, combining illustrated slides with an interactive gameplay phase guided by voice-over, adapts to the configured movement set and accommodates children of different ages and reading abilities.
+
+\medskip
+\textbf{Swift Rescuer:} a vegan hunter frees trapped animals by shooting at them. A stability-to-shoot mechanic allows successful aim only when the crosshair is green. Four levels, the last introducing a cognitive sequencing challenge.
+
+\smallskip
+\textbf{Sledding Adventures:} the child steers a sled down a snowy track collecting items and avoiding obstacles, training forearm movements across four progressively demanding levels.
+
+\smallskip
+\textbf{Galaxy Drift:} the child pilots a spaceship against enemies while managing lives, fuel, and ammunition, training forearm and hand movements with a resource management cognitive layer.
+}
+
+% Placeholder box for game screenshots
+\posterbox[adjusted title = Game Screenshots]
+{name = screenshots, column=1, below=suite}{
+\centering
+\textit{[Screenshots of Swift Rescuer, Sledding Adventures, Galaxy Drift]}
+\vspace{3cm}
+}
+
+% --- COLUMN 2 ---
+
+% Placeholder box for child playing photo
+\posterbox[]
+{name = childphoto, column=2}{
+\centering
+\textit{[Photo: child playing with Playcuff]}
+\vspace{4cm}
+}
+
+\posterbox[adjusted title = Experimental Design]
+{name = design, column=2, below=childphoto}{
+12 typically developing children (aged 4--12) participate in a single 110-minute session. Each child plays all three games twice, with the alternative movement configuration swapped between sessions. Assignment order is randomized to counterbalance exposure effects.
+
+\medskip
+Data collected include in-game performance metrics and wristband movement classifications (automatically logged by the system), usability and engagement questionnaires (UAS \cite{spinoso2026psychometric} and UES-SF \cite{OBRIEN201828} adapted), and ground-truth movement data via motion capture cameras and retro-reflective markers.
+}
+
+% Placeholder box for session timeline figure
+\posterbox[adjusted title = Session Timeline]
+{name = timeline, column=2, below=design}{
+	\centering
+    \includegraphics[width=\linewidth]{assets/session_timeline_csw.pdf}
+}
+
+\posterbox[adjusted title = Future Works]
+{name = future, column=2, below=timeline}{
+This study with 12 healthy children represents the immediate next step toward clinical deployment. The system will then be evaluated in longitudinal studies with children diagnosed with neuromotor disorders, as planned within the \textbf{Fit4MedRob} clinical investigation, to provide evidence on therapeutic efficacy, motor learning, and sustained engagement across repeated sessions.
+}
+
+\posterbox[adjusted title = References]
+{name = refs, column=2, below=future}{
+\printbibliography[heading=none]
+}
+
+\end{cswposter}
+\end{document}

@@ -1,0 +1,371 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{biffi2017immersive}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=f9d294e7b9f1b443fc66f49c9a2368ba}{%
+           family={Biffi},
+           familyi={B\bibinitperiod},
+           given={Emilia},
+           giveni={E\bibinitperiod}}}%
+        {{hash=796196b359cde9dddbe45f670690a167}{%
+           family={Beretta},
+           familyi={B\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+        {{hash=16decf4281aef89142c80e6a6c3dc3c6}{%
+           family={Cesareo},
+           familyi={C\bibinitperiod},
+           given={Ambra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=99aebb52060ce496b4334358f78aedb9}{%
+           family={Maghini},
+           familyi={M\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6460c73b69bc1afc49b08ffa626b80ef}{%
+           family={Turconi},
+           familyi={T\bibinitperiod},
+           given={Anna\bibnamedelima C},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=240c93bda3518b8ed78663160ddcc537}{%
+           family={Reni},
+           familyi={R\bibinitperiod},
+           given={Gianluigi},
+           giveni={G\bibinitperiod}}}%
+        {{hash=246ac83dc7a9d060e9a7822ac0247477}{%
+           family={Strazzer},
+           familyi={S\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3101e31a034047f954667670b5b7ab9e}
+      \strng{fullhash}{3b02898119fcde31956b65d2c00cccf4}
+      \strng{fullhashraw}{3b02898119fcde31956b65d2c00cccf4}
+      \strng{bibnamehash}{3101e31a034047f954667670b5b7ab9e}
+      \strng{authorbibnamehash}{3101e31a034047f954667670b5b7ab9e}
+      \strng{authornamehash}{3101e31a034047f954667670b5b7ab9e}
+      \strng{authorfullhash}{3b02898119fcde31956b65d2c00cccf4}
+      \strng{authorfullhashraw}{3b02898119fcde31956b65d2c00cccf4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Methods of information in medicine}
+      \field{title}{An immersive virtual reality platform to enhance walking ability of children with acquired brain injuries}
+      \field{year}{2017}
+    \endentry
+    \entry{lazzari2026design}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=0f2ffbd896ab5cb28548f19110caf11f}{%
+           family={Lazzari},
+           familyi={L\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=fa16e829cb732b6d3c86622c73f9f853}{%
+           family={Romanò},
+           familyi={R\bibinitperiod},
+           given={Jacopo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5b997581efe6da5dcd2ee3625f2140fe}{%
+           family={Nossa},
+           familyi={N\bibinitperiod},
+           given={Roberta},
+           giveni={R\bibinitperiod}}}%
+        {{hash=fbde339e0850502652bb4526f5b04757}{%
+           family={Meloni},
+           familyi={M\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod}}}%
+        {{hash=15e5995bda805e57fe9d6b75822b0920}{%
+           family={Garavaglia},
+           familyi={G\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=16aae2b8916c85f1c06ae9d6c734d152}{%
+           family={Diella},
+           familyi={D\bibinitperiod},
+           given={Eleonora},
+           giveni={E\bibinitperiod}}}%
+        {{hash=0c877e5e5b631cff799b40e24f936bcc}{%
+           family={Valoriani},
+           familyi={V\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ee4a73fc2448889108e7b9b99507b2e6}{%
+           family={Fedeli},
+           familyi={F\bibinitperiod},
+           given={Francesca},
+           giveni={F\bibinitperiod}}}%
+        {{hash=4cd2699a0d5e9d431220987dbd100416}{%
+           family={Porro},
+           familyi={P\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f9d294e7b9f1b443fc66f49c9a2368ba}{%
+           family={Biffi},
+           familyi={B\bibinitperiod},
+           given={Emilia},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb4a8a16157a64e2068d74637cc3e814}
+      \strng{fullhash}{1691ad21c643fedd2b64917666e95bf0}
+      \strng{fullhashraw}{1691ad21c643fedd2b64917666e95bf0}
+      \strng{bibnamehash}{eb4a8a16157a64e2068d74637cc3e814}
+      \strng{authorbibnamehash}{eb4a8a16157a64e2068d74637cc3e814}
+      \strng{authornamehash}{eb4a8a16157a64e2068d74637cc3e814}
+      \strng{authorfullhash}{1691ad21c643fedd2b64917666e95bf0}
+      \strng{authorfullhashraw}{1691ad21c643fedd2b64917666e95bf0}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of Biomedical Engineering}
+      \field{title}{Design and Preliminary Evaluation of a Smart Orthotic Videogame Controller Dedicated to Children}
+      \field{year}{2026}
+    \endentry
+    \entry{maggiorini2017evolution}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=eb5e90c709256607b94a28a09d4a0870}{%
+           family={Maggiorini},
+           familyi={M\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cb4b954c7274dfd0b7a39aa11a9b0160}{%
+           family={Granato},
+           familyi={G\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f46f745e33cb60c7bcec62aa7b8b8491}{%
+           family={Ripamonti},
+           familyi={R\bibinitperiod},
+           given={Laura\bibnamedelima Anna},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=0a698ee1556fe12d518fa601dc8f8d02}{%
+           family={Marras},
+           familyi={M\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=286b6374e618209e27b51c51f0c6cadb}{%
+           family={Gadia},
+           familyi={G\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{24b9950fc15095ba3a437166f583033f}
+      \strng{fullhash}{92e52cd45dac49d94fd7c29eddc10c83}
+      \strng{fullhashraw}{92e52cd45dac49d94fd7c29eddc10c83}
+      \strng{bibnamehash}{24b9950fc15095ba3a437166f583033f}
+      \strng{authorbibnamehash}{24b9950fc15095ba3a437166f583033f}
+      \strng{authornamehash}{24b9950fc15095ba3a437166f583033f}
+      \strng{authorfullhash}{92e52cd45dac49d94fd7c29eddc10c83}
+      \strng{authorfullhashraw}{92e52cd45dac49d94fd7c29eddc10c83}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Computer-Human Interaction Research and Applications}
+      \field{title}{Evolution of game controllers: Toward the support of gamers with physical disabilities}
+      \field{year}{2017}
+    \endentry
+    \entry{OBRIEN201828}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=5632b8f19f01274208e573912b70abf7}{%
+           family={O’Brien},
+           familyi={O\bibinitperiod},
+           given={Heather\bibnamedelima L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=3449b8552331ee5f6ace198f37c3908f}{%
+           family={Cairns},
+           familyi={C\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8afb2c93d55a5a48ea1845b23eb996d5}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6caae466a7406cccf5eace4a2c8fa264}
+      \strng{fullhash}{2c117b34fb64212497046aa724c2f573}
+      \strng{fullhashraw}{2c117b34fb64212497046aa724c2f573}
+      \strng{bibnamehash}{6caae466a7406cccf5eace4a2c8fa264}
+      \strng{authorbibnamehash}{6caae466a7406cccf5eace4a2c8fa264}
+      \strng{authornamehash}{6caae466a7406cccf5eace4a2c8fa264}
+      \strng{authorfullhash}{2c117b34fb64212497046aa724c2f573}
+      \strng{authorfullhashraw}{2c117b34fb64212497046aa724c2f573}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Human-Computer Studies}
+      \field{title}{A practical approach to measuring user engagement with the refined user engagement scale (UES) and new UES short form}
+      \field{year}{2018}
+    \endentry
+    \entry{pizzo2025activepaws}{inproceedings}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=d33fb1a71198be54d7bb64c5a0c513cb}{%
+           family={Pizzo},
+           familyi={P\bibinitperiod},
+           given={Marianna},
+           giveni={M\bibinitperiod}}}%
+        {{hash=50d55abdf929435619305670cc3de864}{%
+           family={De\bibnamedelima Filippis},
+           familyi={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0f2ffbd896ab5cb28548f19110caf11f}{%
+           family={Lazzari},
+           familyi={L\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=fa16e829cb732b6d3c86622c73f9f853}{%
+           family={Romanò},
+           familyi={R\bibinitperiod},
+           given={Jacopo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=15e5995bda805e57fe9d6b75822b0920}{%
+           family={Garavaglia},
+           familyi={G\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=16aae2b8916c85f1c06ae9d6c734d152}{%
+           family={Diella},
+           familyi={D\bibinitperiod},
+           given={Eleonora},
+           giveni={E\bibinitperiod}}}%
+        {{hash=041ce9e1d03958840374d9047ccb8c74}{%
+           family={Sgandurra},
+           familyi={S\bibinitperiod},
+           given={Giuseppina},
+           giveni={G\bibinitperiod}}}%
+        {{hash=125d50f23c8b1f7c0c5295b1f7ba8edb}{%
+           family={Signorini},
+           familyi={S\bibinitperiod},
+           given={Sabrina},
+           giveni={S\bibinitperiod}}}%
+        {{hash=48e452146a3a8a314649b34e2d07fb48}{%
+           family={Solari},
+           familyi={S\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=954690081fbb62c0e205025c05bf9920}{%
+           family={Pittaccio},
+           familyi={P\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5578e330bfd10bd0b77cb3e4742f240f}
+      \strng{fullhash}{73b7bf5feb991948541ab1ab8c848fc1}
+      \strng{fullhashraw}{73b7bf5feb991948541ab1ab8c848fc1}
+      \strng{bibnamehash}{5578e330bfd10bd0b77cb3e4742f240f}
+      \strng{authorbibnamehash}{5578e330bfd10bd0b77cb3e4742f240f}
+      \strng{authornamehash}{5578e330bfd10bd0b77cb3e4742f240f}
+      \strng{authorfullhash}{73b7bf5feb991948541ab1ab8c848fc1}
+      \strng{authorfullhashraw}{73b7bf5feb991948541ab1ab8c848fc1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2025 IEEE ISMAR Adjunct}
+      \field{title}{ActivePaws and Playcuff: Pilot Evaluation of a Non-Immersive Exergame Suite Controlled by a Wearable Device}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{spinoso2026psychometric}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=01db1374ac018a7733b19b183c0ad71d}{%
+           family={Spinoso},
+           familyi={S\bibinitperiod},
+           given={Matilde},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b1cc18f1b8046beff4bf3dfb3f48b7fa}{%
+           family={Benassi},
+           familyi={B\bibinitperiod},
+           given={Mariagrazia},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e3a4975d584f2ea4b0afbcd2fa25c6f0}{%
+           family={Mazzoni},
+           familyi={M\bibinitperiod},
+           given={Noemi},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d06bed55406869b0de615a73624e5d5b}{%
+           family={Orsoni},
+           familyi={O\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=08be58424542b3aa7bfc25669f3da341}{%
+           family={Stefanutti},
+           familyi={S\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=07ab7416a8acbd8bef05f7e75729327b}{%
+           family={Anselmi},
+           familyi={A\bibinitperiod},
+           given={Pasquale},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e7fade206a14a9e7495672bf7456b947}{%
+           family={De\bibnamedelima Chiusole},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Debora},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a8988dcd7d48f9ac6c049c77fc829a9e}{%
+           family={Bacherini},
+           familyi={B\bibinitperiod},
+           given={Alice},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b96a47f498a27b8ce8cbb90fd55342bb}{%
+           family={Pierluigi},
+           familyi={P\bibinitperiod},
+           given={Irene},
+           giveni={I\bibinitperiod}}}%
+        {{hash=acac185216680352bbc730e77a43691d}{%
+           family={Garofalo},
+           familyi={G\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{bfe26f81038e53ab01a6d2f6a059e89c}
+      \strng{fullhash}{e6eb9f449e6ac3a8a33d06c484531eb4}
+      \strng{fullhashraw}{e6eb9f449e6ac3a8a33d06c484531eb4}
+      \strng{bibnamehash}{bfe26f81038e53ab01a6d2f6a059e89c}
+      \strng{authorbibnamehash}{bfe26f81038e53ab01a6d2f6a059e89c}
+      \strng{authornamehash}{bfe26f81038e53ab01a6d2f6a059e89c}
+      \strng{authorfullhash}{e6eb9f449e6ac3a8a33d06c484531eb4}
+      \strng{authorfullhashraw}{e6eb9f449e6ac3a8a33d06c484531eb4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Psychology}
+      \field{title}{Psychometric properties of the Usability and Acceptability Scale (UAS) for evaluating digital tools in children and adolescent users}
+      \field{year}{2026}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
