@@ -39,6 +39,8 @@
 \RequirePackage{csquotes}
 \defbibheading{bibliography}[]{}
 \nocite{*}
+\newcommand{\refsize}{\fontsize{28}{20}\selectfont}
+\AtEveryBibitem{\refsize}
 
 % Define font sizes
 \renewcommand{\tiny}{\fontsize{10}{15}\selectfont}
@@ -102,11 +104,11 @@
     \begin{tikzpicture}[remember picture, overlay]
         % Rectangle dimensions
         \def\width{0.76\textwidth}
-        \def\height{9cm}
+        \def\height{10cm}
         \def\radius{20pt}
         
         % Position of the top-right corner
-        \coordinate (top-right) at ([xshift=-0.065\textwidth, yshift=-6cm]current page.north east);
+        \coordinate (top-right) at ([xshift=-0.065\textwidth, yshift=-5cm]current page.north east);
         
         % Calculate the positions of the other corners
         \coordinate (top-left) at ([xshift=-\width]top-right);

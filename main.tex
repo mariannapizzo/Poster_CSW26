@@ -1,6 +1,8 @@
 \documentclass{cswposter}
+\usepackage{array}
 \ExecuteBibliographyOptions{maxnames=2, minnames=1, giveninits=true}
 \addbibresource{references.bib}
+\newcommand{\img}[1]{\includegraphics[width=\linewidth]{#1}}
 
 \begin{document}
 
@@ -15,72 +17,121 @@
 {name = motivation, column=1}{
 The \textit{Convention on the Rights of the Child} (UN, 1989) states that \textit{``Every child has a right to play''}. Yet children with upper limb neuromotor disorders often cannot access mainstream games, as conventional controllers exceed their motor abilities \cite{maggiorini2017evolution}. Research exergames address this but tend to be repetitive, poorly engaging, and graphically minimal compared to the games their healthy peers play \cite{biffi2017immersive}.
 
-\textbf{ActivePaws} was designed to address both demands. On one hand, it uses a soft wearable orthosis as a controller~\cite{lazzari2026design} with \textbf{intuitive gestures} and \textbf{configurable alternative mappings} to accommodate different motor profiles. On the other hand, it provides a suite of exergames co-designed with therapists to be visually and sonically engaging, while remaining uncluttered enough to keep the motor task in focus.
+\textbf{ActivePaws} was designed to address both demands. On one hand, it uses a soft wearable orthosis as a controller~\cite{lazzari2026design} with \textbf{intuitive gestures} and \textbf{configurable alternative mappings} to accommodate different motor profiles. On the other hand, it provides a suite of exergames co-designed with therapists to be \textbf{visually and sonically engaging}, while remaining uncluttered enough to keep the motor task in focus.
 
-\textbf{RQ1.} Is the system usable, acceptable, and engaging for children?\\
-\textbf{RQ2.} Do alternative movement mappings affect game performance?\\
-\textbf{RQ3.} Is there an optimal movement sensitivity threshold that facilitates successful gameplay?
+{\color{color1}\textbf{RQ1.}} Is the system usable, acceptable, and engaging for children?\\
+{\color{color1}\textbf{RQ2.}} Do alternative movement mappings affect game performance?\\
+{\color{color1}\textbf{RQ3.}} Is there an optimal movement sensitivity threshold that facilitates successful gameplay?
 }
 
 \posterbox[adjusted title = The ActivePaws Exergame Suite]
 {name = suite, column=1, below=motivation}{
-ActivePaws is a wearable-controlled exergame suite for pediatric upper limb rehabilitation. A soft wrist orthosis, Playcuff \cite{lazzari2026design}, connects wirelessly via Bluetooth and serves as the game controller.
+ActivePaws is a wearable-controlled exergame suite for pediatric upper limb rehabilitation. A soft wrist orthosis, \textbf{Playcuff} \cite{lazzari2026design}, connects wirelessly via Bluetooth and serves as the game controller.
 
 \medskip
 The suite comprises three games. Each game offers \textbf{configurable alternative movement mappings} for key in-game actions, independently selectable before each session: one set is slightly more ecologically intuitive, ensuring accessibility across different residual motor abilities. Each game also provides a \textbf{calibration scene} where the therapist sets the sensitivity threshold for specific movements. A \textbf{two-phase tutorial}, combining illustrated slides with an interactive gameplay phase guided by voice-over, adapts to the configured movement set and accommodates children of different ages and reading abilities.
 
 \medskip
-\textbf{Swift Rescuer:} a vegan hunter frees trapped animals by shooting at them. A stability-to-shoot mechanic allows successful aim only when the crosshair is green. Four levels, the last introducing a cognitive sequencing challenge.
+{\color{color1}\textbf{Swift Rescuer:}} a vegan hunter frees trapped animals by shooting at them. A stability-to-shoot mechanic allows successful aim only when the crosshair is green. Four levels, the last introducing a cognitive sequencing challenge.
 
 \smallskip
-\textbf{Sledding Adventures:} the child steers a sled down a snowy track collecting items and avoiding obstacles, training forearm movements across four progressively demanding levels.
+{\color{color1}\textbf{Sledding Adventures:}} the child steers a sled down a snowy track collecting items and avoiding obstacles, training forearm movements across four progressively demanding levels.
 
 \smallskip
-\textbf{Galaxy Drift:} the child pilots a spaceship against enemies while managing lives, fuel, and ammunition, training forearm and hand movements with a resource management cognitive layer.
+{\color{color1}\textbf{Galaxy Drift:}} the child pilots a spaceship against enemies while managing lives, fuel, and ammunition, training forearm and hand movements with a resource management cognitive layer.
 }
 
-% Placeholder box for game screenshots
-\posterbox[adjusted title = Game Screenshots]
-{name = screenshots, column=1, below=suite}{
-\centering
-\textit{[Screenshots of Swift Rescuer, Sledding Adventures, Galaxy Drift]}
-\vspace{3cm}
+
+
+
+\posterbox[adjusted title = Experimental Design]
+{name = design, column=1 , below=suite}{
+12 typically developing children (aged 4--12) participate in a single 120-minute session. Each child plays all three games twice, with the alternative movement configuration swapped between sessions. Assignment order is randomized to counterbalance exposure effects.
+
+\smallskip
+Data collected include in-game performance metrics and wristband movement classifications (automatically logged by the system), usability and engagement questionnaires (UAS~\cite{spinoso2026psychometric} and UES-SF~\cite{OBRIEN201828} adapted), and movement data via motion capture cameras and markers.
+\medskip
+\begin{tikzpicture}[x=0.155\linewidth, y=1cm, font=\footnotesize]
+  \draw[->, line width=1pt, color=color2] (0,0) -- (6.1,0);
+
+  \fill[color1] (0.5,0) circle (12pt);
+  \node[above, yshift=14pt]  at (0.5,0) {\textbf{T0}};
+  \node[below, yshift=-14pt] at (0.5,0) {5min};
+  \node[below, yshift=-38pt] at (0.5,0) {Consent};
+
+  \fill[color1] (1.5,0) circle (12pt);
+  \node[above, yshift=14pt]  at (1.5,0) {\textbf{T1}};
+  \node[below, yshift=-14pt] at (1.5,0) {45min};
+  \node[below, yshift=-38pt, align=center] at (1.5,0) {Calib.\ + Game\\ with first set};
+  \node[above, yshift=40pt, color1, align=center] at (1.5,0) {\textbf{Session 1}};
+
+  \fill[color1] (3.0,0) circle (12pt);
+  \node[above, yshift=14pt]  at (3.0,0) {\textbf{T2}};
+  \node[below, yshift=-14pt] at (3.0,0) {15min};
+  \node[below, yshift=-38pt, align=center] at (3.0,0) {Break +\\ Questionnaires\\ on Session 1};
+
+  \fill[color1] (4.5,0) circle (12pt);
+  \node[above, yshift=14pt]  at (4.5,0) {\textbf{T3}};
+  \node[below, yshift=-14pt] at (4.5,0) {45min};
+  \node[below, yshift=-38pt, align=center] at (4.5,0) {Calib.\ + Game\\ with alt.\ set};
+  \node[above, yshift=40pt, color1, align=center] at (4.5,0) {\textbf{Session 2}};
+
+  \fill[color1] (5.5,0) circle (12pt);
+  \node[above, yshift=14pt]  at (5.5,0) {\textbf{T4}};
+  \node[below, yshift=-14pt] at (5.5,0) {10min};
+  \node[below, yshift=-38pt, align=center] at (5.5,0) {End +\\ Questionnaires\\ on Session 2};
+
+  \node[right] at (6.1,0) {\textbf{120 min}};
+\end{tikzpicture}
 }
+\posterbox[adjusted title = Future Works]
+{name = future, column=1, below=design}{
+The system will be evaluated in studies with children with neuromotor disorders within the \textbf{Fit4MedRob} investigation, providing evidence of therapeutic efficacy, motor learning, and sustained engagement.}
+
+
+
 
 % --- COLUMN 2 ---
 
-% Placeholder box for child playing photo
+\posterbox[adjusted title = Game Screenshots]
+{name = screenshots, column=2}{
+\begin{tabular}{m{0.05\linewidth} m{0.3\linewidth} m{0.3\linewidth} m{0.3\linewidth}}
+\centering & \centering\textbf{Swift Rescuer} & \centering\textbf{Sledding Adventures} & \centering\arraybackslash\textbf{Galaxy Drift} \\[0.3em]
+\centering\rotatebox{90}{\footnotesize Initial UI} & \img{assets/Figure/interfacciainiziale/sr.png} & \img{assets/Figure/interfacciainiziale/sa.png} & \img{assets/Figure/interfacciainiziale/gd.png} \\[0.2em]
+
+\centering\rotatebox{90}{\footnotesize  Alt. Movements\hspace{2pt}} & \img{assets/Figure/movimenti/sr.png} & \img{assets/Figure/movimenti/sa.png} & \img{assets/Figure/movimenti/gd.png} \\[0.2em]
+
+\centering\rotatebox{90}{\footnotesize Calibration\hspace{2pt}} & \img{assets/Figure/calibrazione/sr.png} & \img{assets/Figure/calibrazione/sa.png} & \img{assets/Figure/calibrazione/gd.png} \\[0.2em]
+
+\centering\rotatebox{90}{\footnotesize Text. Tutorial\hspace{2pt}} & \img{assets/Figure/tutorial/sr.png} & \img{assets/Figure/tutorial/sa.png} & \img{assets/Figure/tutorial/gd.png} \\[0.2em]
+
+\centering\rotatebox{90}{\footnotesize Inter. Tutorial\hspace{2pt}} & \img{assets/Figure/gameplaytu/sr.png} & \img{assets/Figure/gameplaytu/sa.png} & \img{assets/Figure/gameplaytu/gd.png} \\[0.2em]
+
+\centering\rotatebox{90}{\footnotesize Gameplay\hspace{2pt}} & \img{assets/Figure/gioco/sr.png} & \img{assets/Figure/gioco/sa.png} & \img{assets/Figure/gioco/gd.png} \\
+
+\end{tabular}
+}
+
+
 \posterbox[]
-{name = childphoto, column=2}{
+{name = childphoto, column=2, below=screenshots}{
 \centering
-\textit{[Photo: child playing with Playcuff]}
-\vspace{4cm}
+\includegraphics[width=0.7\linewidth]{assets/img.png}
 }
 
-\posterbox[adjusted title = Experimental Design]
-{name = design, column=2, below=childphoto}{
-12 typically developing children (aged 4--12) participate in a single 110-minute session. Each child plays all three games twice, with the alternative movement configuration swapped between sessions. Assignment order is randomized to counterbalance exposure effects.
 
-\medskip
-Data collected include in-game performance metrics and wristband movement classifications (automatically logged by the system), usability and engagement questionnaires (UAS \cite{spinoso2026psychometric} and UES-SF \cite{OBRIEN201828} adapted), and ground-truth movement data via motion capture cameras and retro-reflective markers.
-}
-
-% Placeholder box for session timeline figure
-\posterbox[adjusted title = Session Timeline]
-{name = timeline, column=2, below=design}{
-	\centering
-    \includegraphics[width=\linewidth]{assets/session_timeline_csw.pdf}
-}
-
-\posterbox[adjusted title = Future Works]
-{name = future, column=2, below=timeline}{
-This study with 12 healthy children represents the immediate next step toward clinical deployment. The system will then be evaluated in longitudinal studies with children diagnosed with neuromotor disorders, as planned within the \textbf{Fit4MedRob} clinical investigation, to provide evidence on therapeutic efficacy, motor learning, and sustained engagement across repeated sessions.
-}
 
 \posterbox[adjusted title = References]
-{name = refs, column=2, below=future}{
+{name = refs, column=2, below=childphoto}{
 \printbibliography[heading=none]
 }
 
 \end{cswposter}
+
+\begin{tikzpicture}[remember picture, overlay]
+  \node[anchor=south, yshift=1.5cm, font=\fontsize{30}{36}\selectfont]
+    at (current page.south)
+    {\texttt{marianna.pizzo@edu.unige.it} -- \textbf{PILab}};
+\end{tikzpicture}
+
 \end{document}
